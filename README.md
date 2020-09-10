@@ -60,6 +60,12 @@ The main things you may want to adjust when using this theme are your content
  - check navigation and content in `lynx(1)` browser
  - check navigation and content in screen reader(s)
 
+## Roadmap
+
+ - demo site showcasing features
+ - user sitemaps
+ - scriptless search (GET submission to engine + index generation)
+
 ### License
 
 [The Unlicense](https://unlicense.org) - do whatever you like with this code.
