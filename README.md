@@ -4,7 +4,7 @@ Minimalist Hugo theme with a penchant for accessibility
 
 ## Project aims
 
- - XHTML 1.0 valid and HTML 5 friendly code
+ - XHTML 1.0 Strict valid and HTML 5 friendly code
  - minimal bloat in the generated markup
  - focus on accessibility
    - semantic, minimal markup for screen readers
