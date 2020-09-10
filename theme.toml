@@ -1,7 +1,7 @@
 name = "Accessible Minimalism"
 license = "Unlicense"
 licenselink = "https://unlicense.org/"
-description = ""
+description = "Minimalist Hugo theme with a penchant for accessibility"
 homepage = "https://github.com/leonstafford/accessible-minimalism-hugo-theme"
 tags = ["minimalist", "accessible"]
 features = []
