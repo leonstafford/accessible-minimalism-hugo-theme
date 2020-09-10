@@ -52,50 +52,13 @@ The main things you may want to adjust when using this theme are your content
 
 [![Screenshot](/images/screenshot.png?cb=1234)](/images/screenshot.png)
 
-## HTML 1.0 tags (still valid in HTML 5)
+## Testing
 
-```
-<A>
-<ADDRESS>
-<B>
-<BASE>
-<BLOCKQUOTE>
-<BODY>
-<CITE>
-<CODE>
-<DD>
-<DFN>
-<DL>
-<DT>
-<EM>
-<H1>
-<H2>
-<H3>
-<H4>
-<H5>
-<H6>
-<HEAD>
-<HTML>
-<I>
-<IMG>
-<KBD>
-<KEY>
-<LI>
-<LINK>
-<LISTING>
-<MENU>
-<NEXTID>
-<OL>
-<P>
-<PLAINTEXT>
-<PRE>
-<SAMP>
-<STRONG>
-<TITLE>
-<UL>
-<VAR>
-<XMP>
-```
+ - check theme against [w3c validator](https://validator.w3.org)
+ - check using `content` dir from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample)
+ - check using `content` dir from `exampleSite` in this repo
+ - check navigation and content in `lynx(1)` browser
+ - check navigation and content in screen reader(s)
 
 ### License
 
