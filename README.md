@@ -65,6 +65,7 @@ The main things you may want to adjust when using this theme are your content
  - demo site showcasing features
  - user sitemaps
  - scriptless search (GET submission to engine + index generation)
+ - prepare empty custom CSS
 
 ### License
 
