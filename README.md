@@ -48,6 +48,10 @@ The main things you may want to adjust when using this theme are your content
  - skip redundancy such as anchor's `title` attributes
  - default browser colors are high contrast enough
 
+## Screenshot
+
+[![Screenshot](/imagesescreenshot.png)](/images/screenshot.png)
+
 ## HTML 1.0 tags (still valid in HTML 5)
 
 ```
