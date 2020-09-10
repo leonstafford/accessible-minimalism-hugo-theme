@@ -1,6 +1,20 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ partial "metadata.html" . }}
-<br><br>
+
 {{ .Content }}
+
+<p>See related content by Tags:</p>
+
+<ul>
+
+{{ with .Params.tags }}
+{{ range . }}
+{{ $href := print (absURL "tags/") (urlize .) }}
+<li><a href="{{ $href }}">{{ . }}</a></li>
+{{ end }}
+{{ end }}
+
+</ul>
+
 {{ end }}

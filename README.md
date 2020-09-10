@@ -4,14 +4,15 @@ Minimalist Hugo theme with a penchant for accessibility
 
 ## Project aims
 
- - HTML 1 and HTML 5 valid code
+ - XHTML 1.0 valid and HTML 5 friendly code
  - minimal bloat in the generated markup
  - focus on accessibility
    - semantic, minimal markup for screen readers
-   - minimal CSS for high contrast viewing
+   - minimal added CSS for partially sighted users
    - easy to read source code
    - minimal config required to get started and use in Hugo
  - RSS subscription support
+ - favors fully-blind users over partially or fully sighted users
  - mobile-last development 
 
 ## Who is this for?
@@ -33,6 +34,64 @@ The early web was great for content, unburdened by MBs of JavaScript or CSS.
 
 `cp themes/accessible-minimalism/exampleSite/config.toml .`
 
+## Configuration
+
+The main things you may want to adjust when using this theme are your content
+ structure and main site menu. Copying the `content` directory from this theme's
+ `exampleSite` directory will be a good place to start. You can compare this
+ with the menu entries in the `config.toml` and it should make sense. Try making
+ changes and see what happens. If it becomes a mess, reset both to initial 
+ states.
+
+## Development decisions
+
+ - skip redundancy such as anchor's `title` attributes
+ - default browser colors are high contrast enough
+
+## HTML 1.0 tags (still valid in HTML 5)
+
+```
+<A>
+<ADDRESS>
+<B>
+<BASE>
+<BLOCKQUOTE>
+<BODY>
+<CITE>
+<CODE>
+<DD>
+<DFN>
+<DL>
+<DT>
+<EM>
+<H1>
+<H2>
+<H3>
+<H4>
+<H5>
+<H6>
+<HEAD>
+<HTML>
+<I>
+<IMG>
+<KBD>
+<KEY>
+<LI>
+<LINK>
+<LISTING>
+<MENU>
+<NEXTID>
+<OL>
+<P>
+<PLAINTEXT>
+<PRE>
+<SAMP>
+<STRONG>
+<TITLE>
+<UL>
+<VAR>
+<XMP>
+```
 
 ### License
 

@@ -1,10 +1,6 @@
+<p>by {{if .Params.author}}{{.Params.author}}{{else}}{{ .Site.Params.author }}{{end}}</p>
+
 {{ $dateTime := .PublishDate.Format "2006-01-02" }}
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
-{{ with .Params.tags }}
-<i data-feather="tag"></i>
-{{ range . }}
-{{ $href := print (absURL "tags/") (urlize .) }}
-<a href="{{ $href }}">{{ . }}</a>
-{{ end }}
-{{ end }}
+<p>{{ .PublishDate.Format $dateFormat }}</p>
+
