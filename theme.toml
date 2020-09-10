@@ -1,0 +1,13 @@
+name = "Accessible Minimalism"
+license = "Unlicense"
+licenselink = "https://unlicense.org/"
+description = ""
+homepage = "https://github.com/leonstafford/accessible-minimalism-hugo-theme"
+tags = ["minimalist", "accessible"]
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Leon Stafford"
+  homepage = "https://ljs.dev"
+
