@@ -4,17 +4,21 @@
 
 {{ .Content }}
 
-<p>See related content by Tags:</p>
+{{ if .Params.tags }}
 
-<ul>
+  <p>See related content by Tags:</p>
 
-{{ with .Params.tags }}
-{{ range . }}
-{{ $href := print (absURL "tags/") (urlize .) }}
-<li><a href="{{ $href }}">{{ . }}</a></li>
+  <ul>
+
+  {{ with .Params.tags }}
+  {{ range . }}
+  {{ $href := print (absURL "tags/") (urlize .) }}
+  <li><a href="{{ $href }}">{{ . }}</a></li>
+  {{ end }}
+  {{ end }}
+
+  </ul>
+
 {{ end }}
-{{ end }}
-
-</ul>
 
 {{ end }}
