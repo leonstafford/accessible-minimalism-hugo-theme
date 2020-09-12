@@ -64,10 +64,10 @@ The main things you may want to adjust when using this theme are your content
 
 ## Roadmap
 
- - demo site showcasing features
+ - author and date conditionally show on single/list
  - user sitemaps
  - scriptless search (GET submission to engine + index generation)
- - prepare empty custom CSS
+ - prepare empty custom CSS (that gets inlined?)
 
 ### License
 
