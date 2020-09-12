@@ -2,6 +2,8 @@
 
 Minimalist Hugo theme with a penchant for accessibility 
 
+[Demo site](https://accessible-minimalism.netlify.app)
+
 ## Project aims
 
  - XHTML 1.0 Strict valid and HTML 5 friendly code
