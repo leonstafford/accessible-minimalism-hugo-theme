@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Accessible Minimalism"
 theme = "accessible-minimalism"
 disableHugoGeneratorInject = true
+enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
@@ -13,7 +14,3 @@ disableHugoGeneratorInject = true
     name = "Posts"
     url = "/posts/"
     weight = 2
-  [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3

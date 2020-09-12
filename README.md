@@ -69,6 +69,7 @@ The main things you may want to adjust when using this theme are your content
  - scriptless search (GET submission to engine + index generation)
  - prepare empty custom CSS (that gets inlined?)
  - multilingual site support (includine Hugo's sitemapindex)
+ - theme options / config help for enabling footer links to email, RSS, socials
 
 ### License
 
