@@ -1,14 +1,22 @@
 {{ define "main" }}
+
 <h1>{{ .Title }}</h1>
+
+The title and an excerpt of each article is listed below. The excerpt is a
+ hyperlink you can follow to the full article.
+
 {{ range .Pages.ByPublishDate.Reverse }}
 
     <h3><a class="test1" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+
     {{ partial "metadata.html" . }}
+
     <p>
       <a class="test2" href="{{ .RelPermalink }}">
-        {{ .Summary | plainify }}
+        {{ .Summary | safeHTML }}
       </a>
     </p>
 
 {{ end }}
+
 {{ end }}
