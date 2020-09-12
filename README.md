@@ -68,6 +68,7 @@ The main things you may want to adjust when using this theme are your content
  - user sitemaps
  - scriptless search (GET submission to engine + index generation)
  - prepare empty custom CSS (that gets inlined?)
+ - multilingual site support (includine Hugo's sitemapindex)
 
 ### License
 
