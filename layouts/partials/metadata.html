@@ -1,6 +1,10 @@
-<p>by {{if .Params.author}}{{.Params.author}}{{else}}{{ .Site.Params.author }}{{end}}</p>
+{{if .Params.author}}
+  <p>by {{.Params.author}}{{else}}{{ .Site.Params.author }}</p>
+{{end}}
 
-{{ $dateTime := .PublishDate.Format "2006-01-02" }}
-{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-<p>{{ .PublishDate.Format $dateFormat }}</p>
+{{ if not .Date.IsZero }}
+  {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+  {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
 
+  <p>{{ .PublishDate.Format $dateFormat }}</p>
+{{end}}
