@@ -61,15 +61,15 @@ The main things you may want to adjust when using this theme are your content
  - check using `content` dir from `exampleSite` in this repo
  - check navigation and content in `lynx(1)` browser
  - check navigation and content in screen reader(s)
+ - test accessibility in sites like:
+   - [wave](https://wave.webaim.org/report#/https://accessible-minimalism.netlify.app)
+   - [achecked](https://achecker.ca)
 
 ## Roadmap
 
- - author and date conditionally show on single/list
- - user sitemaps
- - scriptless search (GET submission to engine + index generation)
- - prepare empty custom CSS (that gets inlined?)
- - multilingual site support (includine Hugo's sitemapindex)
  - theme options / config help for enabling footer links to email, RSS, socials
+ - scriptless search (GET submission to engine + index generation)
+ - multilingual site support (includine Hugo's sitemapindex)
 
 ### License
 
