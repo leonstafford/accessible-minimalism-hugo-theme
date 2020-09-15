@@ -2,20 +2,22 @@
 
 <h1>{{ .Title }}</h1>
 
-The title and an excerpt of each article is listed below. The excerpt is a
- hyperlink you can follow to the full article.
-
 {{ range .Pages.ByPublishDate.Reverse }}
 
-    <h3><a class="test1" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <h3>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h3>
 
-    {{ partial "metadata.html" . }}
+    
+    {{ if gt (len .Summary) 0 }}
 
-    <p>
-      <a class="test2" href="{{ .RelPermalink }}">
+      <p>
         {{ .Summary | safeHTML }}
-      </a>
-    </p>
+
+        <a href="{{ .RelPermalink }}">{{ .Title }} full article</a>
+      </p>
+  {{ end }}
+
 
 {{ end }}
 

@@ -1,6 +1,9 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
+
+{{ if ne .Params.Type "page" }}
+  {{ partial "metadata.html" . }}
+{{ end }}
 
 {{ .Content }}
 
