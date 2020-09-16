@@ -7,9 +7,26 @@
 
 {{ .Content }}
 
+{{ if .Params.categories }}
+
+  <p>Related categories:</p>
+
+  <ul>
+
+  {{ with .Params.categories }}
+  {{ range . }}
+  {{ $href := print (absURL "categories/") (urlize .) }}
+  <li><a href="{{ $href }}">{{ . }}</a></li>
+  {{ end }}
+  {{ end }}
+
+  </ul>
+
+{{ end }}
+
 {{ if .Params.tags }}
 
-  <p>See related content by Tags:</p>
+  <p>Related tags:</p>
 
   <ul>
 
@@ -23,5 +40,6 @@
   </ul>
 
 {{ end }}
+
 
 {{ end }}
