@@ -52,7 +52,7 @@ The main things you may want to adjust when using this theme are your content
 
 ## Screenshot
 
-[![Screenshot](/images/screenshot.png?cb=1234)](/images/screenshot.png)
+[![Screenshot](https://github.com/leonstafford/accessible-minimalism-hugo-theme/blob/master/images/screenshot.png?cb=1234)](https://github.com/leonstafford/accessible-minimalism-hugo-theme/blob/master/images/screenshot.png)
 
 ## Testing
 
