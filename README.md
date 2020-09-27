@@ -32,6 +32,14 @@ The early web was great for content, unburdened by MBs of JavaScript or CSS.
 
 `git clone --depth 1 https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
 
+It may be preferable to use git's submodule functionality to keep the theme
+ within your website's repository. To do this, use:
+
+`git submodule add https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
+
+*Using the https remote URI will make deployment of your website via some CI/CD,
+ such as Netlify, easier.*
+
 2. Copy the `config.toml` file from the exampleSite directory inside this repository to your site root:
 
 `cp themes/accessible-minimalism/exampleSite/config.toml .`
