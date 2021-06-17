@@ -1,12 +1,12 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-
+<div class="middle">
 {{ if ne .Params.Type "page" }}
   {{ partial "metadata.html" . }}
 {{ end }}
 
 {{ .Content }}
-
+</div>
 {{ if .Params.categories }}
 
   <p><strong>Related categories:</strong></p>

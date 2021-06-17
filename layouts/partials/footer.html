@@ -1,14 +1,2 @@
-<p><a name="nav-menu" id="nav-menu"><strong>Site menu</strong></a></p>
 
-<ul>
-    {{ range .Site.Menus.main }}
-    <li>
-      <a href="{{ .URL }}">
-      {{ $text := print .Name | safeHTML }}
-      {{ $text }}
-      </a>
-    </li>
-    {{ end }}
-</ul>
-
-<p><a href="#">Back to top</a></p>
+<p><a href="#top">Back to top</a></p>
