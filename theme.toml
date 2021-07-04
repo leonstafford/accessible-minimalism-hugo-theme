@@ -1,11 +1,12 @@
 name = "Accessible Minimalism"
 license = "Unlicense"
-licenselink = "https://unlicense.org/"
+licenselink = "https://unlicense.org"
 description = "Minimalist Hugo theme with a penchant for accessibility"
 homepage = "https://github.com/leonstafford/accessible-minimalism-hugo-theme"
 tags = ["minimalist", "accessible", "simple"]
 features = ["For visually impaired readers and developers"]
 min_version = "0.68.0"
+demosite = "https://accessible-minimalism.netlify.app"
 
 [author]
   name = "Leon Stafford"
