@@ -14,3 +14,17 @@ enableRobotsTXT = true
     name = "Posts"
     url = "/posts/"
     weight = 2
+
+[params]
+	author = "John Smith"
+	email = "john@example.org"
+	emailText = "Email"
+	rssText = "RSS feed"
+
+	[[params.socials]]
+		url = "http://example.com"
+		text = "Social Media"
+	[[params.socials]]
+		url = "http://example.com"
+		text = "Video Series"
+
