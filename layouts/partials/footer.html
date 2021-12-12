@@ -12,3 +12,18 @@
 </ul>
 
 <p><a href="#">Back to top</a></p>
+
+<p>
+{{ if isset .Site.Params "email" }}
+<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.emailText }}</a>
+{{ end }}
+{{ $url := "" }}
+{{ with .OutputFormats.Get "rss" -}}
+    {{ if not (eq .Permalink "") }}
+      <a href="{{ .Permalink | safeURL }}">{{ $.Site.Params.rssText }}</a>
+    {{ end }}
+{{ end -}}
+{{ range .Site.Params.socials }}
+  <a href="{{ .url | safeURL }}">{{ .text }}</a>
+{{ end }}
+</p>
