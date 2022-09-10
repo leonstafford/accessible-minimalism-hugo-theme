@@ -11,11 +11,6 @@
     
     {{ if gt (len .Summary) 0 }}
 
-      <p>
-        {{ .Summary | safeHTML }}
-
-        <a href="{{ .RelPermalink }}">{{ .Title }} full article</a>
-      </p>
   {{ end }}
 
 
