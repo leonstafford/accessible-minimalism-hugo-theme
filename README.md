@@ -28,6 +28,12 @@ The early web was great for content, unburdened by MBs of JavaScript or CSS.
 
 ## Getting started
 
+0. (if no Hugo website yet)
+
+ - Install Hugo
+ - Create new project dir (`hugo new project ~/project-dir`)
+ - Change dir to project's (`cd ~/project-dir`)
+
 1. In your Hugo site's root, clone this repo to your `themes` dir:
 
 `git clone --depth 1 https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
