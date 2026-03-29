@@ -46,6 +46,18 @@ The early web was great for content, unburdened by MBs of JavaScript or CSS.
 
 `cp themes/accessible-minimalism/exampleSite/config.toml .`
 
+This tells your Hugo site which theme you're using, along with other configuration options which you can adjust now or later.
+
+3. Test your site:
+
+ - run your Hugo server from project root `hugo server`
+ - open the local website address shown in the above command's output, ie `http://localhost:1313/`
+
+4. Proceed to develop your site content and theme
+
+ - TBC steps for git workflow
+
+
 ## Configuration
 
 The main things you may want to adjust when using this theme are your content
