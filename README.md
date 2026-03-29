@@ -34,12 +34,8 @@ The early web was great for content, unburdened by MBs of JavaScript or CSS.
  - Create new project dir (`hugo new project ~/project-dir`)
  - Change dir to project's (`cd ~/project-dir`)
 
-1. In your Hugo site's root, clone this repo to your `themes` dir:
-
-`git clone --depth 1 https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
-
-It may be preferable to use git's submodule functionality to keep the theme
- within your website's repository. To do this, use:
+1. In your Hugo site's root, use git's submodule functionality to keep the theme
+ within your website's repository for easier management. 
 
 `git submodule add https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
 
