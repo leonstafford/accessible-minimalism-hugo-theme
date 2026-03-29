@@ -45,9 +45,9 @@ The early web was great for content, unburdened by MBs of JavaScript or CSS.
 *The `--no-single-branch` argument avoids some submodule trouble for me in development, you may omit it, but shouldn't cause you any issues if left in*
 
 
-2. Copy the `config.toml` file from the exampleSite directory inside this repository to your site root:
+2. Copy the `hugo.toml` file from the exampleSite directory inside this repository to your site root:
 
-`cp themes/accessible-minimalism/exampleSite/config.toml .`
+`cp themes/accessible-minimalism/exampleSite/hugo.toml .`
 
 This tells your Hugo site which theme you're using, along with other configuration options which you can adjust now or later.
 
@@ -66,7 +66,7 @@ This tells your Hugo site which theme you're using, along with other configurati
 The main things you may want to adjust when using this theme are your content
  structure and main site menu. Copying the `content` directory from this theme's
  `exampleSite` directory will be a good place to start. You can compare this
- with the menu entries in the `config.toml` and it should make sense. Try making
+ with the menu entries in the `hugo.toml` and it should make sense. Try making
  changes and see what happens. If it becomes a mess, reset both to initial 
  states.
 
