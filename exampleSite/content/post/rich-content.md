@@ -13,30 +13,44 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 <!--more-->
 ---
 
-## Instagram Simple Shortcode
+## Code Highlighting
 
-{{< instagram_simple BGvuInzyFAe hidecaption >}}
+{{< highlight go "linenos=inline, hl_lines=3 6-8, style=emacs" >}}
+package main
 
-<br>
+import "fmt"
 
----
+func main() {
+    for i := 0; i < 3; i++ {
+        fmt.Println("Value of i:", i)
+    }
+}
+{{< /highlight >}}
 
-## YouTube Privacy Enhanced Shortcode
+## Instagram Shortcode
 
-{{< youtube ZJthWmvUzzc >}}
-
-<br>
-
----
-
-## Twitter Simple Shortcode
-
-{{< twitter_simple 1085870671291310081 >}}
+{{< instagram BGvuInzyFAe hidecaption >}}
 
 <br>
 
 ---
 
-## Vimeo Simple Shortcode
+## YouTube Shortcode
 
-{{< vimeo_simple 48912912 >}}
+{{< youtube 0RKpf3rK57I >}}
+
+<br>
+
+---
+
+## Twitter Shortcode
+
+{{< 1085870671291310081 >}}
+
+<br>
+
+---
+
+## Vimeo Shortcode
+
+{{< vimeo 48912912 >}}
