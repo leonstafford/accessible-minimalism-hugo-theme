@@ -28,12 +28,14 @@ The early web was great for content, unburdened by MBs of JavaScript or CSS.
 
 ## Getting started
 
-1. In your Hugo site's root, clone this repo to your `themes` dir:
+0. (if no Hugo website yet)
 
-`git clone --depth 1 https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
+ - Install Hugo
+ - Create new project dir (`hugo new project ~/project-dir`)
+ - Change dir to project's (`cd ~/project-dir`)
 
-It may be preferable to use git's submodule functionality to keep the theme
- within your website's repository. To do this, use:
+1. In your Hugo site's root, use git's submodule functionality to keep the theme
+ within your website's repository for easier management. 
 
 `git submodule add https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
 
@@ -43,6 +45,18 @@ It may be preferable to use git's submodule functionality to keep the theme
 2. Copy the `config.toml` file from the exampleSite directory inside this repository to your site root:
 
 `cp themes/accessible-minimalism/exampleSite/config.toml .`
+
+This tells your Hugo site which theme you're using, along with other configuration options which you can adjust now or later.
+
+3. Test your site:
+
+ - run your Hugo server from project root `hugo server`
+ - open the local website address shown in the above command's output, ie `http://localhost:1313/`
+
+4. Proceed to develop your site content and theme
+
+ - TBC steps for git workflow
+
 
 ## Configuration
 
