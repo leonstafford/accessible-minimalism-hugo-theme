@@ -37,10 +37,13 @@ The early web was great for content, unburdened by MBs of JavaScript or CSS.
 1. In your Hugo site's root, use git's submodule functionality to keep the theme
  within your website's repository for easier management. 
 
-`git submodule add https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
+`git submodule add --no-single-branch https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/accessible-minimalism`
 
 *Using the https remote URI will make deployment of your website via some CI/CD,
  such as Netlify, easier.*
+
+*The `--no-single-branch` argument avoids some submodule trouble for me in development, you may omit it, but shouldn't cause you any issues if left in*
+
 
 2. Copy the `config.toml` file from the exampleSite directory inside this repository to your site root:
 
