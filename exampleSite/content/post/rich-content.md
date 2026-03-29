@@ -45,7 +45,7 @@ func main() {
 
 ## Twitter Shortcode
 
-{{< x 1085870671291310081 >}}
+{{< x user="SanDiegoZoo" id="1453110110599868418" >}}
 
 <br>
 
